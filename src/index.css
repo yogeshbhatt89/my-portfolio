@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-black text-white font-mono;
+    @apply bg-black text-blue-300 font-mono overflow-hidden;
   }
   img {
     border-radius: 50%;

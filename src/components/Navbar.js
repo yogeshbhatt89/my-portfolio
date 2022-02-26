@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex flex-col mt-20 text-5xl min-w-max ">
+    <div className="flex flex-col mt-32 text-5xl min-w-max ">
       <div className="m-2">
         <Link to="/projects">MY PROJECTS</Link>
       </div>
