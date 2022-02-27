@@ -6,25 +6,127 @@
   body {
     @apply bg-black text-blue-300 font-mono overflow-hidden;
   }
-  img {
+  #portrait {
     border-radius: 50%;
     width: 400px;
     height: 400px;
   }
 
-  a {
-    color: #fff;
-    display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
+  .btn {
+    position: relative;
+    display: block;
+    color: #72a6e2;
+    font-size: 40px;
 
-    letter-spacing: 1px;
-    cursor: pointer;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    -webkit-transition: ease-out 0.6s;
-    -moz-transition: ease-out 0.6s;
-    transition: ease-out 0.6s;
+    text-decoration: none;
+    margin: 30px 0;
+    border: 2px solid #72a6e2;
+    padding: 14px 50px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 1s all ease;
   }
-  a:hover {
-    box-shadow: inset 400px 0 0 0 #000000;
+  .btn::before {
+    background: #72a6e2;
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+  }
+
+  .btn::before {
+    width: 0%;
+    height: 100%;
+  }
+
+  .btn:hover::before {
+    width: 100%;
+  }
+  .btn:hover {
+    color: black;
+  }
+
+  .moreInfo {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  .imgWork {
+    margin-top: 30px;
+    border-radius: 15px;
+    opacity: 1;
+    display: block;
+    width: 500px;
+    height: 225px;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  .container:hover .imgWork {
+    opacity: 0.3;
+  }
+  .container:hover .moreInfo {
+    opacity: 1;
+  }
+  .text {
+    border-radius: 4px;
+    background-color: #fff;
+    border: none;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 16px;
+    width: 160px;
+    height: 70px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 36px;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0, 0.7);
+  }
+
+  .text {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .text:after {
+    content: "»";
+    position: absolute;
+    opacity: 0;
+    top: 14px;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .text:hover {
+    padding-right: 24px;
+    padding-left: 8px;
+  }
+
+  .text:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  .swiper {
+    margin-top: 45px;
+    width: 1000px;
+  }
+  .imgProj {
+    border-radius: 15px;
+    height: 300px;
   }
 }

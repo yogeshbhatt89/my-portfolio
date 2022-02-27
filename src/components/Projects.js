@@ -1,9 +1,41 @@
 import React from "react";
 import AnimatedPage from "./AnimatedPage";
+import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <AnimatedPage>
-      <div className="mr-32 ml-32 mt-20  text-2xl">MY PROJECTS</div>
+      <div className="flex flex-col mr-32 ml-32  text-center text-4xl ">
+        MY Recent Work
+        <div className=" flex flex-row mt-10 space-x-20">
+          <div className="container relative">
+            Janken Coliseum
+            <img className="imgWork " src="janken.png" alt="janken" />
+            <Link to="/projects/1">
+              <div className="moreInfo">
+                <div className="text bg-blue-300 mt-28">More Info</div>
+              </div>
+            </Link>
+          </div>
+          <div className="container relative ">
+            Clothes R US
+            <img className="imgWork  " src="clothes.png" alt="clothesrus" />
+            <Link to="/projects/2">
+              <div className="moreInfo">
+                <div className="text bg-blue-300  mt-28">More Info</div>
+              </div>
+            </Link>
+          </div>
+          <div className="container relative">
+            Find The Flame
+            <img className="imgWork " src="imagefind.png" alt="findtheflame" />
+            <Link to="/projects/3">
+              <div className="moreInfo">
+                <div className="text bg-blue-300  mt-28">More Info</div>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </div>
     </AnimatedPage>
   );
 };
