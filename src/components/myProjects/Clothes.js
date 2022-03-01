@@ -8,7 +8,7 @@ SwiperCore.use(Autoplay);
 const Clothes = () => {
   return (
     <AnimatedPage>
-      <div className="flex  flex-row ml-20 mr-48">
+      <div className="flex  flex-row ml-10 space-x-14 ">
         <Swiper
           className="swiper"
           slidesPerView={1}
@@ -22,40 +22,26 @@ const Clothes = () => {
           navigation={true}
         >
           <SwiperSlide>
-            <img
-              className="imgProj  mt-16"
-              src="../clothes.png"
-              alt="janken1"
-            />
+            <img className="imgProj  " src="../clothes.png" alt="clothes" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="imgProj  mt-16"
-              src="../janken1.png"
-              alt="janken1"
-            />
+            <img className="imgProj " src="../clothes1.png" alt="clothes1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="imgProj  mt-16"
-              src="../janken2.png"
-              alt="janken2"
-            />
+            <img className="imgProj " src="../clothes2.png" alt="clothes2" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="imgProj  mt-16"
-              src="../janken3.png"
-              alt="janken3"
-            />
+            <img className="imgProj " src="../clothes3.png" alt="clothes3" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="imgProj " src="../clothes4.png" alt="clothes4" />
           </SwiperSlide>
         </Swiper>
-        <div className="mr-32 ml-32 mt-16  text-2xl">
-          Clothes are us is an e-commerce web application. It utilizes
-          pagination and search technologies using react hooks. Website allows
-          users to buy various products. Users can add items to their cart,
-          remove items as well as update the product quantity. During checkout
-          users can complete their purchase by using stripe checkout.
+        <div className="textDiv  text-2xl">
+          Clothes are us is an e-commerce web application. Website allows users
+          to buy various products. Users can add items to their cart, remove
+          items as well as update the product quantity. During checkout users
+          can complete their purchase by using stripe checkout.
           <br />
           <br />
           <div className="text-white">TechStack:</div>

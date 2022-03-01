@@ -9,10 +9,12 @@ import Three from "./components/Three";
 import Clothes from "./components/myProjects/Clothes";
 import FindTheFlame from "./components/myProjects/FindTheFlame";
 import SideBar from "./components/SideBar";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
     <div>
+      <NavBar />
       <Three />
       <div className="ml-28 mr-28 ">
         <Router>

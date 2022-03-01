@@ -8,9 +8,9 @@ SwiperCore.use(Autoplay);
 const Janken = () => {
   return (
     <AnimatedPage>
-      <div className="flex  flex-row ml-20">
+      <div className="flex  flex-row ml-10 space-x-14">
         <Swiper
-          className="swiper"
+          className="swiper "
           slidesPerView={1}
           autoplay={{
             delay: 2500,
@@ -22,31 +22,19 @@ const Janken = () => {
           navigation={true}
         >
           <SwiperSlide>
-            <img className="imgProj mt-16" src="../janken.png" alt="janken1" />
+            <img className="imgProj" src="../janken.png" alt="janken1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="imgProj  mt-16"
-              src="../janken1.png"
-              alt="janken1"
-            />
+            <img className="imgProj" src="../janken1.png" alt="janken1" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="imgProj  mt-16"
-              src="../janken2.png"
-              alt="janken2"
-            />
+            <img className="imgProj" src="../janken2.png" alt="janken2" />
           </SwiperSlide>
           <SwiperSlide>
-            <img
-              className="imgProj  mt-16"
-              src="../janken3.png"
-              alt="janken3"
-            />
+            <img className="imgProj" src="../janken3.png" alt="janken3" />
           </SwiperSlide>
         </Swiper>
-        <div className="mr-32 ml-32 mt-16  text-2xl">
+        <div className=" textDiv text-2xl">
           Janken Coliseum is an open world rpg based on the classic rock paper
           scissors game. Janken Coliseum features a world of pickups and
           battleable NPCs.

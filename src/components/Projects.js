@@ -4,9 +4,10 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <AnimatedPage>
-      <div className="flex flex-col mr-32 ml-32  text-center text-4xl ">
-        MY Recent Work
-        <div className=" flex flex-row mt-10 space-x-20">
+      <div className="flex flex-col mr-32 ml-32 ">
+        <div className="text-center text-5xl text-white "> MY Recent Work</div>
+
+        <div className=" flex flex-row mt-10 space-x-20  text-4xl">
           <div className="container relative">
             Janken Coliseum
             <img className="imgWork " src="janken.png" alt="janken" />
