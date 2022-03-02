@@ -2,9 +2,11 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="w-full h-10 flex flex-row justify-between">
+    <nav className="w-full h-10 flex flex-row justify-between ">
       <a href="localhost:3000">
-        <div className="text-3xl ml-10 mt-5">Yogesh Bhatt</div>
+        <div className="text-7xl ml-10 mt-5 hover:scale-130 transition ease-in-out delay-150  hover:-translate-y-1   duration-300 ">
+          Yogesh Bhatt
+        </div>
       </a>
 
       <div className="flex flex-row space-x-10 mr-10 mt-5 text-lg">
@@ -14,7 +16,7 @@ const NavBar = () => {
             focusable="false"
             data-prefix="fab"
             data-icon="linkedin-in"
-            className="svg-inline--fa fa-linkedin-in w-3.5 hover:scale-150"
+            className="svg-inline--fa fa-linkedin-in w-8 hover:scale-130 transition ease-in-out delay-150  hover:-translate-y-1   duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -31,7 +33,7 @@ const NavBar = () => {
             focusable="false"
             data-prefix="fab"
             data-icon="github"
-            className="svg-inline--fa fa-github w-4 hover:scale-150"
+            className="svg-inline--fa fa-github w-8 hover:scale-130 transition ease-in-out delay-150  hover:-translate-y-1   duration-300"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 496 512"

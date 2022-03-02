@@ -18,7 +18,7 @@ const Projects = () => {
             </Link>
           </div>
           <div className="container relative ">
-            Clothes R US
+            <div className="text-center"> Clothes R US</div>
             <img className="imgWork  " src="clothes.png" alt="clothesrus" />
             <Link to="/projects/2">
               <div className="moreInfo">
@@ -27,7 +27,7 @@ const Projects = () => {
             </Link>
           </div>
           <div className="container relative">
-            Find The Flame
+            <div className="text-center">Find The Flame</div>
             <img className="imgWork " src="imagefind.png" alt="findtheflame" />
             <Link to="/projects/3">
               <div className="moreInfo">

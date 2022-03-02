@@ -5,8 +5,8 @@ const AboutMe = () => {
   return (
     <AnimatedPage>
       <div className="flex flex-row ">
-        <div className="mr-32 ml-32 mt-16  text-2xl">
-          HELLO!~ I'M A SOFTWARE DEVELOPER FROM NEW YORK WHO LOVES CREATING WEB
+        <div className="mr-32 ml-32 mt-28  text-2xl">
+          HI!~ I'M A SOFTWARE DEVELOPER FROM NEW YORK WHO LOVES CREATING WEB
           APPLICATIONS. CURRENTLY OPEN TO NETWORK.
           <br />
           <br />
@@ -21,7 +21,7 @@ const AboutMe = () => {
 
         <img
           id="portrait"
-          className="object-none"
+          className="object-none mr-20"
           src="https://avatars.githubusercontent.com/u/61337526?v=4"
           alt="portrait"
         />
