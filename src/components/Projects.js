@@ -1,11 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 import AnimatedPage from "./AnimatedPage";
 import { Link } from "react-router-dom";
 const Projects = () => {
+  const [more, showMore] = useState(false);
+  function onClick() {
+    if (!more) {
+      showMore(true);
+    } else {
+      showMore(false);
+    }
+  }
   return (
     <AnimatedPage>
       <div className="flex flex-col mr-32 ml-32 ">
-        <div className="text-center text-5xl text-white "> MY Recent Work</div>
+        <div className="flex flex-row justify-between text-center h-10">
+          <div className="text-center text-5xl text-white justify-center  items-center">
+            MY Recent Work
+          </div>
+          <button onClick={onClick}>
+            More Projects
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 "
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13 5l7 7-7 7M5 5l7 7-7 7"
+              />
+            </svg>
+            <div>{more ? <p>More coming soon...</p> : null}</div>
+          </button>
+        </div>
 
         <div className=" flex flex-row mt-10 space-x-20  text-4xl justify">
           <div className="container relative ">

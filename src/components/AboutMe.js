@@ -4,7 +4,7 @@ import AnimatedPage from "./AnimatedPage";
 const AboutMe = () => {
   return (
     <AnimatedPage>
-      <div className="flex flex-row ">
+      <div className=" about flex flex-row ">
         <div className="mr-32 ml-32 mt-28  text-2xl">
           HI!~ I'M A SOFTWARE DEVELOPER FROM NEW YORK WHO LOVES CREATING WEB
           APPLICATIONS. CURRENTLY OPEN TO NETWORK.

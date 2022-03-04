@@ -18,7 +18,7 @@ const App = () => {
       <Three />
       <div className="ml-28 mr-28 ">
         <Router>
-          <div className="flex flex-row mt-48  mb-48 absolute mr-28">
+          <div className="site flex flex-row mt-40  mb-48 absolute mr-28">
             <SideBar />
             <Routes>
               <Route path="/" element={<AboutMe />} />

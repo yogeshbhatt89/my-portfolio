@@ -136,4 +136,13 @@
     margin-top: 40px;
     width: 800px;
   }
+
+  /* @media (max-width: 500px) {
+    .site {
+      flex-direction: column;
+    }
+    canvas {
+      display: none;
+    }
+  } */
 }
