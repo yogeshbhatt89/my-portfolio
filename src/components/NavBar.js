@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <nav className="w-full h-10 flex flex-row justify-between ">
+    <nav className="w-full h-10 flex flex-row justify-between text-blue-300">
       <a href="https://admiring-hypatia-49f14f.netlify.app/">
         <div className="text-7xl ml-10 mt-5 hover:scale-130 transition ease-in-out delay-150  hover:-translate-y-1   duration-300 ">
           Yogesh Bhatt

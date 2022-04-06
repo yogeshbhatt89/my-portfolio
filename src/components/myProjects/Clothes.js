@@ -37,8 +37,9 @@ const Clothes = () => {
             <img className="imgProj " src="../clothes4.png" alt="clothes4" />
           </SwiperSlide>
         </Swiper>
+
         <div className="textDiv  text-2xl">
-          Clothes are us is an e-commerce web application. Website allows users
+          Clothes R us is an e-commerce web application. Website allows users
           to buy various products. Users can add items to their cart, remove
           items as well as update the product quantity. During checkout users
           can complete their purchase by using stripe checkout.

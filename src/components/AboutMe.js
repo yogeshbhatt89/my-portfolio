@@ -4,8 +4,8 @@ import AnimatedPage from "./AnimatedPage";
 const AboutMe = () => {
   return (
     <AnimatedPage>
-      <div className=" about flex flex-row ">
-        <div className="mr-32 ml-32 mt-28  text-2xl">
+      <div className=" flex flex-row xl:mr-32 xl:ml-32   sm:mr-10 sm:ml-10  text-2xl text-blue-300 ">
+        <div className="mt-14">
           HI!~ I'M A SOFTWARE DEVELOPER FROM NEW YORK WHO LOVES CREATING WEB
           APPLICATIONS. CURRENTLY OPEN TO NETWORK.
           <br />
@@ -21,7 +21,7 @@ const AboutMe = () => {
 
         <img
           id="portrait"
-          className="object-none mr-20"
+          className="object-none sm:mt-14 xl:mt-0"
           src="https://avatars.githubusercontent.com/u/61337526?v=4"
           alt="portrait"
         />

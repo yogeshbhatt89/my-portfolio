@@ -12,9 +12,9 @@ const Projects = () => {
   }
   return (
     <AnimatedPage>
-      <div className="flex flex-col mr-32 ml-32 ">
+      <div className="flex flex-col mr-32 ml-32 text-blue-300">
         <div className="flex flex-row justify-between text-center h-10">
-          <div className="text-center text-5xl text-white justify-center  items-center">
+          <div className="text-center text-5xl text-white justify-center  items-center underline">
             MY Recent Work
           </div>
           <button onClick={onClick}>
