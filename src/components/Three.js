@@ -87,7 +87,7 @@ const AnimationCanvas = () => {
 };
 const Three = () => {
   return (
-    <div className="three absolute mt-56 w-full h-full ">
+    <div className="absolute mt-56 w-full h-full ">
       <AnimationCanvas />
     </div>
   );

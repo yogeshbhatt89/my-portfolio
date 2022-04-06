@@ -12,9 +12,9 @@ const Projects = () => {
   }
   return (
     <AnimatedPage>
-      <div className="flex flex-col mr-32 ml-32 text-blue-300">
+      <div className="flex flex-col mr-20 ml-20 text-blue-300 xl:mt-0 sm:mt-14">
         <div className="flex flex-row justify-between text-center h-10">
-          <div className="text-center text-5xl text-white justify-center  items-center underline">
+          <div className="text-center text-5xl text-white justify-center  items-center ">
             MY Recent Work
           </div>
           <button onClick={onClick}>
@@ -37,9 +37,9 @@ const Projects = () => {
           </button>
         </div>
 
-        <div className=" flex flex-row mt-10 space-x-20  text-4xl justify">
+        <div className=" flex xl:flex-row  sm:flex-col mt-10 xl:space-x-14 sm:ml-20 sm:mr-20 text-4xl ">
           <div className="container relative ">
-            <div className="text-center">Janken Coliseum</div>
+            {/* <div className="text-center">Janken Coliseum</div> */}
             <img className="imgWork " src="janken.png" alt="janken" />
             <Link to="/projects/1">
               <div className="moreInfo">
@@ -48,7 +48,7 @@ const Projects = () => {
             </Link>
           </div>
           <div className="container relative ">
-            <div className="text-center"> Clothes R US</div>
+            {/* <div className="text-center"> Clothes R US</div> */}
             <img className="imgWork  " src="clothes.png" alt="clothesrus" />
             <Link to="/projects/2">
               <div className="moreInfo">
@@ -57,7 +57,7 @@ const Projects = () => {
             </Link>
           </div>
           <div className="container relative">
-            <div className="text-center">Find The Flame</div>
+            {/* <div className="text-center">Find The Flame</div> */}
             <img className="imgWork " src="imagefind.png" alt="findtheflame" />
             <Link to="/projects/3">
               <div className="moreInfo">

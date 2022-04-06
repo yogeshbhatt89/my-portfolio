@@ -54,7 +54,7 @@ const ContactMe = () => {
 
   return (
     <AnimatedPage>
-      <div className="h-full w-full flex justify-center flex-row ml-10 ">
+      <div className="h-full w-full flex justify-center flex-row xl:ml-10 xl:mr-20 sm:mr-20 sm:ml-0 text-blue-300 ">
         <div className=" m-auto p-8 shadow-lg justify-center flex flex-col">
           <h1 className="text-5xl font-bold flex items-center justify-center">
             <span>Contact me</span>
@@ -91,7 +91,7 @@ const ContactMe = () => {
               <textarea
                 placeholder="Message"
                 onChange={updateFormControl}
-                className="border-2 p-2 rounded-sm text-2xl h-52 w-96"
+                className="border-2 p-2 rounded-sm text-2xl h-32 w-96"
                 id="message"
                 value={formState?.message}
                 required

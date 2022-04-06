@@ -8,7 +8,7 @@ SwiperCore.use(Autoplay);
 const Janken = () => {
   return (
     <AnimatedPage>
-      <div className="flex  flex-row ml-10 space-x-14">
+      <div className="flex xl:flex-row sm:flex-col xl:ml-10 space-x-14 sm:ml-0  sm:mr-20 text-blue-300 md:text-lg xl:text-2xl">
         <Swiper
           className="swiper "
           slidesPerView={1}

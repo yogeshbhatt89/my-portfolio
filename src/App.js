@@ -19,7 +19,7 @@ const App = () => {
       <div className="ml-28 mr-28 ">
         <Router>
           <div className="flex 2xl:flex-row sm:flex-col mt-40  mb-48 absolute mr-28">
-            <SideBar />
+              <SideBar />
             <Routes>
               <Route path="/" element={<AboutMe />} />
               <Route path="/projects" element={<Projects />} />

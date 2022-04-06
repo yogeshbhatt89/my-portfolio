@@ -8,7 +8,7 @@ SwiperCore.use(Autoplay);
 const Clothes = () => {
   return (
     <AnimatedPage>
-      <div className="flex  flex-row ml-10 space-x-14 ">
+      <div className="flex xl:flex-row sm:flex-col xl:ml-10 space-x-14 sm:ml-0  sm:mr-20 text-blue-300 md:text-lg xl:text-2xl">
         <Swiper
           className="swiper"
           slidesPerView={1}
@@ -38,11 +38,11 @@ const Clothes = () => {
           </SwiperSlide>
         </Swiper>
 
-        <div className="textDiv  text-2xl">
-          Clothes R us is an e-commerce web application. Website allows users
-          to buy various products. Users can add items to their cart, remove
-          items as well as update the product quantity. During checkout users
-          can complete their purchase by using stripe checkout.
+        <div className="textDiv  text-2xl ">
+          Clothes R us is an e-commerce web application. Website allows users to
+          buy various products. Users can add items to their cart, remove items
+          as well as update the product quantity. During checkout users can
+          complete their purchase by using stripe checkout.
           <br />
           <br />
           <div className="text-white">TechStack:</div>
