@@ -4,7 +4,8 @@
 
 @layer base {
   body {
-    @apply bg-black font-mono overflow-hidden;
+    @apply bg-black font-mono overflow-auto tall:overflow-scroll;
+
   }
   #portrait {
 
@@ -141,8 +142,6 @@
     .site {
       flex-direction: column;
     }
-    canvas {
-      display: none;
-    }
+
   } */
 }

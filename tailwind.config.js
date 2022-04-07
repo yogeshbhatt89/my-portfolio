@@ -16,6 +16,7 @@ module.exports = {
 
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
+      tall: { raw: "(max-height: 400px)" },
     },
   },
   plugins: [],
