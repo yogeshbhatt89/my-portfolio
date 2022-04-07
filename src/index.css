@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-black font-mono overflow-auto tall:overflow-scroll;
+    @apply bg-black font-mono regular:overflow-hidden tall:overflow-scroll;
 
   }
   #portrait {
