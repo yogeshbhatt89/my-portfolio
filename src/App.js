@@ -4,7 +4,7 @@ import AboutMe from "./components/AboutMe";
 import Janken from "./components/myProjects/Janken";
 import Projects from "./components/Projects";
 import ContactMe from "./components/ContactMe";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Three from "./components/Three";
 import Clothes from "./components/myProjects/Clothes";
 import FindTheFlame from "./components/myProjects/FindTheFlame";
