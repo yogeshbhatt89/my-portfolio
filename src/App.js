@@ -17,8 +17,8 @@ const App = () => {
       <NavBar />
       <Three />
       <div className="">
-        <Router>
-          <div className="flex 2xl:flex-row sm:flex-col mt-40  mb-40 absolute mr-28 ml-20">
+        <div className="flex 2xl:flex-row sm:flex-col mt-40  mb-40 absolute mr-28 ml-20">
+          <Router>
             <SideBar />
             <Routes>
               <Route path="/" element={<AboutMe />} />
@@ -28,8 +28,8 @@ const App = () => {
               <Route path="/projects/2" element={<Clothes />} />
               <Route path="/projects/3" element={<FindTheFlame />} />
             </Routes>
-          </div>
-        </Router>
+          </Router>
+        </div>
       </div>
     </div>
   );
