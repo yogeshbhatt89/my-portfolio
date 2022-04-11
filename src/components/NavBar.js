@@ -10,7 +10,11 @@ const NavBar = () => {
       </a>
 
       <div className="flex flex-row space-x-10 mr-10 mt-5 text-lg">
-        <a href="https://www.linkedin.com/in/yogeshb89/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/yogeshb89/"
+        >
           <svg
             aria-hidden="true"
             focusable="false"
@@ -27,7 +31,11 @@ const NavBar = () => {
             ></path>
           </svg>
         </a>
-        <a href="https://github.com/yogeshbhatt89">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/yogeshbhatt89"
+        >
           <svg
             aria-hidden="true"
             focusable="false"

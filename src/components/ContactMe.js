@@ -118,7 +118,11 @@ const ContactMe = () => {
           <br />
           <br />
           <div className="flex flex-row space-x-14 ">
-            <a href="https://www.linkedin.com/in/yogeshb89/">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/yogeshb89/"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"
@@ -135,7 +139,11 @@ const ContactMe = () => {
                 ></path>
               </svg>
             </a>
-            <a href="https://github.com/yogeshbhatt89">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/yogeshbhatt89"
+            >
               <svg
                 aria-hidden="true"
                 focusable="false"

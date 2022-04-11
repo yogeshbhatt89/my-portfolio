@@ -63,12 +63,14 @@ const FindTheFlame = () => {
           <div className="text-white">Links:</div>
           <div className="text-white flex flex-row space-x-20">
             <div className="text-blue-400 hover:text-white hover:underline">
-              <a href="https://github.com/yogeshbhatt89/findTheFlamePhaser">
+              <a target="_blank"
+          rel="noreferrer" href="https://github.com/yogeshbhatt89/findTheFlamePhaser">
                 Github
               </a>
             </div>
             <div className="text-blue-400 hover:text-white hover:underline">
-              <a href="https://findtheflamephaser.herokuapp.com/public/">
+              <a target="_blank"
+          rel="noreferrer" href="https://findtheflamephaser.herokuapp.com/public/">
                 Live Demo
               </a>
             </div>
